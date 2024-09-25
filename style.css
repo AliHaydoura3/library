@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  width: 20%;
+}
+
+button {
+  padding: 2px 8px;
+}
+
+#new-book {
+  margin: 0 2px 8px 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 184px;
+  height: 200px;
+  justify-content: space-between;
+}
